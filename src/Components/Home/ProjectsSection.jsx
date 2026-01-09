@@ -2,6 +2,7 @@ import pr1 from "/Projects/pro1.jpg";
 import pr2 from "/Projects/pr2.jpg";
 import pr5 from "/Projects/pr5.jpg";
 import pr6 from "/Projects/prX.png";
+import prb from "/Projects/prb.png";
 import { Fade, Slide } from 'react-awesome-reveal';
 import { Link } from "react-router";
 
@@ -18,6 +19,17 @@ const projects = [
         futurePlans: ['Implementing AI-powered product recommendations', 'Adding support for multiple currencies'],
     },
     {
+        name: 'Shadhin-Bangla 2.0',
+        nameDis: "(Digital platform that brings together memories.)",
+        image: prb,
+        techStack: ['React', 'Node.js', 'TailwindCSS', 'React-Router', 'Firebase', "etc."],
+        description: 'Shadhin Bangla 2.0 is a digital platform that brings together memories of the martyrs of the July Quota Movement in Bangladesh, the history of the freedom struggle, blogs, photos, and tributes.It is not just a website — it is a digital document of the history and consciousness of Bengal for the new generation.',
+        liveLink: "https://shadin-bangla-2-0.web.app",
+        githubLink: 'https://github.com/kamrul2006/shadin-bangla-2.0',
+        challenges: ['Optimizing performance for large datasets', 'Admin, Moderator and User Role implementation'],
+        futurePlans: ['Implementing AI-powered recommendations', 'Adding support for multiple Languages'],
+    },
+    {
         name: 'K-InfoNic',
         nameDis: "(News publishing web application.)",
         image: pr6,
@@ -27,18 +39,6 @@ const projects = [
         githubLink: 'https://github.com/kamrul2006/K-Infonic_ClientSite',
         challenges: ['Integrating payment gateway', 'Optimizing performance for large datasets', 'Admin, Moderator and User Role implementation'],
         futurePlans: ['Implementing AI-powered product recommendations', 'Adding support for multiple currencies'],
-    },
-
-    {
-        name: 'K-Visa',
-        nameDis: "(A Visa Navigator Platform)",
-        image: pr2,
-        techStack: ['React', 'Node.js', 'TailwindCSS', 'React-Router', 'Firebase', "etc."],
-        description: 'K-VISA is a comprehensive Visa Navigator Portal designed to simplify the process of checking visa requirements and applying online.',
-        liveLink: 'https://k-visa-portal.web.app/',
-        githubLink: 'https://github.com/kamrul2006/K-Visa',
-        challenges: ['Implementing Add, Remove, Update Visa program', 'Designing a responsive layout'],
-        futurePlans: ['Adding a comment section', 'Implementing social media sharing'],
     },
     {
         name: 'Lingo-Bingo',
@@ -115,7 +115,7 @@ const ProjectsSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-4">
                     {projects.map((project) => (
                         <Link to={'/projects'}>
-                            <ProjectCard key={project.name} project={project} />
+                            <ProjectCard key={project.nameDis} project={project} />
                         </Link>
                     ))}
                 </div>
