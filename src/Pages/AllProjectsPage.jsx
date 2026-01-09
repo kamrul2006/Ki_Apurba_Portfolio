@@ -12,6 +12,7 @@ import ka from "/Projects/ka.png";
 import { Fade } from 'react-awesome-reveal';
 import { Link } from 'react-router-dom';
 
+
 const projects = [
     {
         name: 'K-Tech',
