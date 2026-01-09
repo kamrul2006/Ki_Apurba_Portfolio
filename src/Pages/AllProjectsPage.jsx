@@ -3,6 +3,7 @@ import pr1 from "/Projects/pro1.jpg";
 import pr2 from "/Projects/pr2.jpg";
 import pr4 from "/Projects/pr4.jpg";
 import pr5 from "/Projects/pr5.jpg";
+import prb from "/Projects/prb.png";
 import pr6 from "/Projects/prX.png";
 import pp from "/Projects/pp.png";
 import px from "/Projects/px.png";
@@ -22,6 +23,17 @@ const projects = [
         githubLink: 'https://github.com/kamrul2006/K-Tech-UI',
         challenges: ['Integrating payment gateway', 'Optimizing performance for large datasets', 'Admin, Moderator and User Role implementation'],
         futurePlans: ['Implementing AI-powered product recommendations', 'Adding support for multiple currencies'],
+    },
+    {
+        name: 'Shadhin-Bangla 2.0',
+        nameDis: "(বাংলার কণ্ঠস্বর — নতুন প্রজন্মের জন্য ডিজিটাল বাংলাদেশ।)",
+        image: prb,
+        techStack: ['React', 'Node.js', 'TailwindCSS', 'React-Router', 'Firebase', "etc."],
+        description: 'Shadhin Bangla 2.0 is a digital platform that brings together memories of the martyrs of the July Quota Movement in Bangladesh, the history of the freedom struggle, blogs, photos, and tributes.It is not just a website — it is a digital document of the history and consciousness of Bengal for the new generation.',
+        liveLink: "https://shadin-bangla-2-0.web.app",
+        githubLink: 'https://github.com/kamrul2006/shadin-bangla-2.0',
+        challenges: ['Optimizing performance for large datasets', 'Admin, Moderator and User Role implementation'],
+        futurePlans: ['Implementing AI-powered recommendations', 'Adding support for multiple Languages'],
     },
     {
         name: 'K-InfoNic',
@@ -75,7 +87,7 @@ const projects = [
         description: 'A sleek, modern digital banking front-end built using React 19, Tailwind CSS 4, and Vite 6. KI Bank UI is designed for performance, responsiveness, and an intuitive user experience, showcasing a contemporary layout with reusable components, elegant animations, and a scalable codebase.',
         liveLink: 'https://ki-bank-ltd.vercel.app/',
         githubLink: 'https://github.com/kamrul2006/KI-BANK_JT',
-        challenges: [ 'Designing an intuitive user interface', "Fully responsive"],
+        challenges: ['Designing an intuitive user interface', "Fully responsive"],
         futurePlans: ['Adding collaboration features', 'Integrating with calendar apps'],
     },
 ];
