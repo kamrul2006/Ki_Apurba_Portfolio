@@ -56,7 +56,7 @@ const ContactSection = () => {
     return (
         <section
             id="contact"
-            className="relative bg-gradient-to-b from-black to-lime-950 py-10 px-6 lg:px-20 text-lime-300"
+            className="relative bg-linear-to-b from-black to-lime-950 py-10 px-6 lg:px-20 text-lime-300"
         >
             {/* ================= HEADER ================= */}
             <div className="text-center max-w-4xl mx-auto mb-5">
