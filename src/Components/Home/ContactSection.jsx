@@ -160,7 +160,7 @@ const ContactSection = () => {
                     {/* Socials */}
                     <div className="pt-6">
                         <h4 className="text-xl text-lime-400 mb-4">Follow Me</h4>
-                        <div className="flex gap-6 text-4xl text-lime-500">
+                        <div className="flex gap-3 md:gap-5 text-4xl text-lime-500">
                             <SocialLink href="https://github.com/kamrul2006">
                                 <FaGithub />
                             </SocialLink>
@@ -204,7 +204,7 @@ const SocialLink = ({ href, children }) => (
         href={href}
         target="_blank"
         rel="noreferrer"
-        className="hover:text-lime-300 hover:scale-110 transition"
+        className="hover:text-lime-300 hover:scale-110 transition text-2xl md:text-4xl"
     >
         {children}
     </a>

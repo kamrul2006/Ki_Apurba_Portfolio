@@ -15,7 +15,8 @@ const Footer = () => {
 
                 {/* Logo & Name */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-left gap-2">
-                    <img src={icon} alt="Logo" className="w-24 h-24 object-contain drop-shadow-xl" />
+                    <img src={icon} alt="Logo" className="w-24 drop-shadow-lime-400 h-24 object-contain drop-shadow-md " />
+
                     <h1 className="text-2xl font-semibold tracking-wider text-lime-300 transition duration-300">
                         Kamrul Islam Apurba
                     </h1>
